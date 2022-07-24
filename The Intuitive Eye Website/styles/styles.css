@@ -1,0 +1,453 @@
+/* add when click on title, have magic crystal wand with glitter then meditation music, on hover, highlight items in golden white light*/
+/* have an emedded audio of basic meditation */
+/* blogs, how to ground, how to cleanse crystal, how to,  */
+body {
+    background: rgb(108,108,159);
+    background: linear-gradient(105deg, rgba(108,108,159,0.8379726890756303) 0%, rgba(192,150,222,0.9164040616246498) 40%, rgba(142,174,204,1) 86%, rgba(88,186,208,0.6334908963585435) 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+}
+
+h3 {
+    font-family: 'Kadwa', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2E4D90;
+    text-align: left;
+    display: inline-block;
+    padding: 2rem auto;
+    margin-bottom: 3rem;
+}
+
+.section-icon {
+    display: inline-block;
+    background: none;
+    width: 2rem;
+}
+
+p {
+    margin: .5rem auto;
+}
+.container-fluid {
+    padding: 1% 7%;
+    position: relative;
+}
+
+/* NAVBAR */
+.navbar {
+    padding-bottom: 5rem;
+    position: relative;
+}
+.nav-fixed-menu {
+    position:absolute;
+    right: 0;
+}
+.navbar-brand {
+    font-family: 'Kadwa', serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.brand-tagline {
+    display:none;
+}
+.nav-item {
+    font-size: .9rem;
+    position: relative;
+    /* z-index: 3; */
+}
+
+/* TITLE */
+.title-box {
+    padding-bottom: 9rem;
+    display:inline-block;
+    width: 80%;
+}
+/* 
+.title-image {
+    width: 15%;
+    float: left;
+} */
+
+.title-head, .title-text {
+    padding: 0.1rem;
+    margin-bottom: 0.8vw;
+    line-height: 2vw;
+    display:inline-block;
+}
+
+.title-text {
+    font-size: 1.2vw;
+    color: #fff;
+    opacity: 80%;
+    text-align: left;
+}
+
+#title h1 {
+    /* font-family: 'Kadwa', serif; */
+    font-family: 'Charm', cursive;
+    font-size: 4vw;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 3px;
+}
+#title h2 {
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #2E4D90;
+    letter-spacing: 2px;
+    padding-bottom: 1vw;
+}
+
+.title-box h3 {
+    font-size: 1.4vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #161969;
+    letter-spacing: 1px;
+    text-align: left;
+    opacity: 80%;
+}
+.title-cta-button {
+    background: rgb(108,108,159);
+    opacity: 60%; 
+    font-weight: bold;
+}
+.title-cta-button:hover {
+    opacity: 30%;
+}
+.mandala-image-bg {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 6rem;
+    z-index: -1;
+}
+
+/*FEATURES -WHAT'S NEW?*/
+#carousel-features h3, #carousel-features .section-icon {
+    display: none;
+}
+
+.features-box {
+    padding: 0 5%;
+    text-align: center;
+}
+
+.feature-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    width: 320px;
+    margin: auto;
+    text-align: center;
+    background: none;
+    padding: 0;
+}
+
+.feature-image {
+    padding: 1rem;
+    margin: auto;
+    float: none;
+    background: url("../images/mandala-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-overview {
+    background: #7a70a5;
+    padding-bottom: 1rem;
+}
+
+.feature-product-name {
+    font-family: 'Kadwa', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: #fff 0.1rem solid;
+    border-top: #fff 0.1rem solid;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background:#4d3f8f; 
+    opacity: 0.5;
+}
+.feature-p {
+    font-size: .9rem;
+    color: #F4FAFF;
+  }
+  
+.feature-desc-text {
+    font-size: .8rem;
+    text-align: justify;
+    padding: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+  }
+  
+.card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    background-image: linear-gradient(to top, #1b0929 0%, #3b2f6b 100%);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    }
+   
+.card button:hover {
+    opacity: 0.7;
+  }
+
+
+#connect, #products {
+    background: rgb(207,222,224);
+    background: linear-gradient(105deg, rgba(207,222,224,0.8379726890756303) 0%, rgba(220,202,232,0.9164040616246498) 14%, rgba(199,209,212,0.6334908963585435) 100%);
+ }
+
+/*GALLERY SECTION/ Collections*/
+.container-gallery {
+    padding: 0;
+    text-align: center;
+}
+.product-gallery-box {
+    width: 220px;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-color: #7a70a5;
+    background: #6c6199;
+    box-shadow: 0 0 8px 3px #7a70a5;
+    height: auto;
+}
+.product-gallery-box:hover {
+    transform: scale(1.2);
+}
+
+.product-gallery-image {
+    width: 100%;
+    border: #fff 0.1rem solid;
+}
+.product-gallery-name {
+    font-family: 'Kadwa', serif;
+    font-size: 0.8rem;
+    color: #fff;
+    border-left: #fff 0.1rem solid;
+    border-right: #fff 0.1rem solid;;
+    padding: 0.15rem;
+    margin: 0;
+    background:#4d3f8f; 
+    opacity: 0.8;
+}
+.product-gallery-price {
+    font-size: 0.7rem;
+    color: #fff;
+    border-bottom: #fff 0.1rem solid;
+    border-left: #fff 0.1rem solid;
+    border-right: #fff 0.1rem solid;;
+    padding: 0.15rem;
+    margin: 0;
+    background: #7a70a5;
+    opacity: 0.9;
+}
+
+/*FAQS SECTION */
+.faqs-accordion-box {
+    margin: auto 15%;
+    color: #fff;
+    font-size: 1rem;
+}
+.accordion-button {
+    background: #8b90dd;
+    color: #fff;
+    opacity: 0.9;
+}
+.accordion-button:not(.collapsed) {
+    background: none;
+    color: #fff;
+    opacity: 0.6;
+}
+.accordion-button:focus {
+    border-color: #7a70a5;
+    box-shadow: 0 0 8px 3px #7a70a5;
+}
+.accordion-body {
+    font-size: 0.9rem;
+    background: none;
+    color:#fff;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+/* CONTACT SECTION */
+.contact-box {
+    color: #978dc4;
+    font-size: 1rem;
+    padding-bottom: 4rem;
+}
+.contact-box h4 {
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+.contact-box h5 {
+    font-size:1.8rem;
+    margin-bottom: 3rem;
+}
+.contact-icon {
+    background: none;
+    width: 4rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+/* .int-eye-logo {
+    max-width: 500px;
+    opacity: 50%;
+    position: relative;
+    left: 15%;
+    padding: 1rem;
+} */
+/* FOOTER */
+.footer-p {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    color: #fff;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.footer-quote {
+    color: #fff;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+    opacity: 70%;
+}
+/* MOBILE VIEW */
+@media (max-width: 991px) {
+    
+    body {
+        text-align: center;
+        background-image: linear-gradient(to top, #401d5a 0%, #6c6199 100%);
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    section {
+        padding-bottom: 5rem;
+    }
+    h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        display: inline-block;
+        padding-bottom: 2rem;
+    }
+
+    #connect, #products {
+        background: none;
+    }
+
+    .section-icon {
+        width: 1.2rem;
+    }
+
+    /* MOBILE TITLE SECTION*/
+    /* Mobile Navbar */
+    
+    .navbar {
+        padding-bottom: .5rem;
+        border-bottom: #d9d9d9 0.05rem solid;
+        margin-bottom: 2rem;
+        text-align: justify;
+    }
+    
+    .nav-fixed-menu {
+        position:absolute;
+        z-index: 2;
+        text-align: right;
+    }
+    
+    .navbar-brand {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+
+    .brand-tagline {
+        display: inline;
+        font-size: .7rem;
+        color: #fff;
+        font-family: 'Kaushan Script', cursive;
+        letter-spacing: 0.1rem;
+    }
+
+    #title .title-box, .mandala-image-bg{
+        display: none;
+    }
+    
+    /* MOBILE FEATURES -WHAT'S NEW?*/
+    #carousel-features h3, #carousel-features .section-icon {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .feature-image {
+        border-radius:50%;
+        padding: 2rem;
+    }
+    .feature-image:hover {
+        border-radius: 0%;
+        padding:0;
+    }
+
+    /* MOBILE GALLERY SECTION/ Collections*/
+    .product-gallery-box {
+        width: 155px;
+        margin: 0.5rem;
+        background: none;
+    }
+
+    .product-gallery-name {
+        opacity: 0.6;
+    }
+    
+    /* MOBILE FAQS SECTION */
+    .accordion-button {
+        background: #7a70a5;
+        color: #fff;
+        opacity: 0.5;
+    }
+ 
+    .accordion-button:focus {
+        border-color: #7a70a5;
+        box-shadow: 0 0 8px 3px #7a70a5;
+    }
+    .accordion-body {
+        color:#978dc4;/
+    }
+    
+    /*MOBILE CONTACT SECTION */
+    .contact-box {
+        margin: auto 15%;
+        color: #978dc4;
+        font-size: 1rem;
+        padding-bottom: 4rem;
+    }
+    .contact-box h4 {
+        font-size: 1rem;
+        margin-bottom: 5rem;
+    }
+    .contact-box h5 {
+        font-size:1.3rem;
+        margin-bottom: 3rem;
+    }
+    .contact-icon {
+        background: none;
+        width: 4rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+}
